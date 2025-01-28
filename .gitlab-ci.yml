@@ -9,7 +9,7 @@ build laptop:
         - echo "Building a laptop"
         - mkdir build
         - touch build/computer.txt
-        - echo "Mainboard" >> build/computer.txt
+        - echo "Hey" >> build/computer.txt
         - cat build/computer.txt
         - echo "Keyboard" >> build/computer.txt
     artifacts:
